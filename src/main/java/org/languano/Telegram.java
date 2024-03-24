@@ -13,9 +13,9 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 
-@Service
+@Component
 public class Telegram {
-    public void init() {
+    public void run() {
         Logger logger = Logger.getLogger(Telegram.class.getName());
 
         logger.info("Run bot");
